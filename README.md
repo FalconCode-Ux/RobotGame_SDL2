@@ -19,6 +19,7 @@ A simple 2D game implemented in C using SDL2.x graphic library. This is just a t
  
 # Build
 Note1: The SDL2 files included with the project are for x86-64 architecture.
+
 Note2: This is a CodeBlocks project and it's pre-configured, so you may open "RobotGame.cbp" and start working on it.
 
 To build the executable (.exe) from the source files on Windows (outside CodeBlocks):
