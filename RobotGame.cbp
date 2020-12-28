@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="RobotGame" />
+		<Option pch_mode="2" />
+		<Option compiler="mingw-w64" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/RobotGame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="mingw-w64" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/RobotGame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="mingw-w64" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="./SDL2/include" />
+			<Add directory="./SDL2_image/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main  -lSDL2 -lSDL2_image" />
+			<Add directory="./SDL2_image/lib" />
+			<Add directory="./SDL2/lib" />
+		</Linker>
+		<Unit filename="CheckCircle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Cleanup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CreateTextures.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CreateWindow.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Define.h" />
+		<Unit filename="Delay.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DetectCollision.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DrawLine.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Game_Over.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GoBackward.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GoForward.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GoLeft.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GoRight.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Init_Glob_Var.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LoadContent.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MoveCircle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="OnRender.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PlayLoop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Prototypes_Fct.h" />
+		<Unit filename="Random.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ResizeWindow.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Set_Background.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="common.h" />
+		<Unit filename="loop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

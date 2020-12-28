@@ -1,0 +1,1342 @@
+# depslib dependency file v1.0
+1580148870 source:d:\myprojects\robot_project\robot_projectv1\cleanup.c
+	"common.h"
+	"Define.h"
+
+1580156855 d:\myprojects\robot_project\robot_projectv1\common.h
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<SDL_image.h>
+	<string.h>
+	<time.h>
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_config.h
+	"SDL_platform.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\begin_code.h
+
+1564025784 d:\myprojects\robot_project\sdl2\include\close_code.h
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025784 d:\myprojects\robot_project\sdl2\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1561866798 d:\myprojects\robot_project\sdl2_image\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547322290 d:\myprojects\robot_project\sdl2_ttf\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1576031610 source:d:\myprojects\robot_project\robot_projectv1\colorpixels.c
+	"common.h"
+
+1580129200 source:d:\myprojects\robot_project\robot_projectv1\createwindow.c
+	"common.h"
+	"Define.h"
+
+1580136563 source:d:\myprojects\robot_project\robot_projectv1\gobackward.c
+	"common.h"
+	"Prototypes_Fct.h"
+	"Define.h"
+
+1580136563 source:d:\myprojects\robot_project\robot_projectv1\goforward.c
+	"common.h"
+	"Prototypes_Fct.h"
+	"Define.h"
+
+1580136563 source:d:\myprojects\robot_project\robot_projectv1\goleft.c
+	"common.h"
+	"Prototypes_Fct.h"
+	"Define.h"
+
+1580136563 source:d:\myprojects\robot_project\robot_projectv1\goright.c
+	"common.h"
+	"Prototypes_Fct.h"
+	"Define.h"
+
+1579558814 source:d:\myprojects\robot_project\robot_projectv1\initializeobjects.c
+	"common.h"
+
+1580137320 source:d:\myprojects\robot_project\robot_projectv1\loadcontent.c
+	"common.h"
+	"Define.h"
+
+1580248371 source:d:\myprojects\robot_project\robot_projectv1\loop.c
+	"common.h"
+	"Prototypes_Fct.h"
+	"Define.h"
+
+1580161168 source:d:\myprojects\robot_project\robot_projectv1\main.c
+	"common.h"
+	"Prototypes_Fct.h"
+	"Define.h"
+
+1579901185 d:\myprojects\robot_project\robot_projectv1\createwindow.h
+
+1579901136 d:\myprojects\robot_project\robot_projectv1\resizewindow.h
+
+1579901135 d:\myprojects\robot_project\robot_projectv1\loadcontent.h
+
+1579903311 d:\myprojects\robot_project\robot_projectv1\onrender.h
+
+1579903311 d:\myprojects\robot_project\robot_projectv1\loop.h
+
+1576030928 d:\myprojects\robot_project\robot_projectv1\colorpixels.h
+
+1576030629 d:\myprojects\robot_project\robot_projectv1\printtext.h
+
+1579901135 d:\myprojects\robot_project\robot_projectv1\cleanup.h
+
+1579901134 d:\myprojects\robot_project\robot_projectv1\initializeobjects.h
+
+1579903311 d:\myprojects\robot_project\robot_projectv1\goforward.h
+
+1580128011 source:d:\myprojects\robot_project\robot_projectv1\onrender.c
+	"common.h"
+	"Prototypes_Fct.h"
+	"Define.h"
+
+1578868415 source:d:\myprojects\robot_project\robot_projectv1\printtext.c
+	"common.h"
+
+1580129365 source:d:\myprojects\robot_project\robot_projectv1\resizewindow.c
+	"common.h"
+	"Define.h"
+
+1579903311 d:\myprojects\robot_project\robot_projectv1\gobackward.h
+
+1579901136 d:\myprojects\robot_project\robot_projectv1\goright.h
+
+1579903311 d:\myprojects\robot_project\robot_projectv1\goleft.h
+
+1578864053 d:\myprojects\robot_project\robot_projectv1\movecercle.h
+
+1579028186 source:d:\myprojects\robot_project\robot_projectv1\movecercle.c
+	"common.h"
+
+1580161366 source:d:\myprojects\robot_project\robot_projectv1\checkcircle.c
+	"common.h"
+	"Prototypes_Fct.h"
+	"Define.h"
+
+1579901135 d:\myprojects\robot_project\robot_projectv1\movecircle.h
+
+1579901138 d:\myprojects\robot_project\robot_projectv1\checkcircle.h
+
+1580136303 source:d:\myprojects\robot_project\robot_projectv1\movecircle.c
+	"common.h"
+	"Prototypes_Fct.h"
+	"Define.h"
+
+1580062226 source:d:\myprojects\robot_project\robot_projectv1\delay.c
+	"common.h"
+	"Define.h"
+
+1579903311 d:\myprojects\robot_project\robot_projectv1\delay.h
+
+1580281939 source:d:\myprojects\robot_project\robot_projectv1\drawline.c
+	"common.h"
+	"Define.h"
+
+1580062226 source:d:\myprojects\robot_project\robot_projectv1\random.c
+	"common.h"
+	"Define.h"
+
+1580062226 source:d:\myprojects\robot_project\robot_projectv1\detectcollision.c
+	"common.h"
+	"Define.h"
+
+1579903312 d:\myprojects\robot_project\robot_projectv1\detectcollision.h
+
+1579901137 d:\myprojects\robot_project\robot_projectv1\drawline.h
+
+1579903312 d:\myprojects\robot_project\robot_projectv1\random.h
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_config.h
+	"SDL_platform.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\begin_code.h
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\close_code.h
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564025678 d:\myprojects\robot_project\sdl_32bit\sdl2\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1561866768 d:\myprojects\robot_project\sdl_32bit\sdl2_image\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1580135796 source:d:\myprojects\robot_project\robot_projectv1\createtextures.c
+	"common.h"
+	"Define.h"
+
+1580147011 d:\myprojects\robot_project\robot_projectv1\prototypes_fct.h
+
+1580062321 d:\myprojects\robot_project\robot_projectv1\define.h
+
+1580289147 source:d:\myprojects\robot_project\robot_projectv1\init_glob_var.c
+	"common.h"
+	"Define.h"
+
+1580307223 source:d:\myprojects\robot_project\robot_projectv1\playloop.c
+	"common.h"
+	"Prototypes_Fct.h"
+	"Define.h"
+
+1580135939 source:d:\myprojects\robot_project\robot_projectv1\set_background.c
+	"common.h"
+	"Prototypes_Fct.h"
+	"Define.h"
+
+1580161303 source:d:\myprojects\robot_project\robot_projectv1\game_over.c
+	"common.h"
+	"Prototypes_Fct.h"
+	"Define.h"
+
+1580161366 source:d:\informatics\c\c_project\robot_game\checkcircle.c
+	"common.h"
+	"Prototypes_Fct.h"
+	"Define.h"
+
+1609164446 d:\informatics\c\c_project\robot_game\common.h
+	<stdlib.h>
+	<stdio.h>
+	<SDL.h>
+	<SDL_image.h>
+	<string.h>
+	<time.h>
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_config.h
+	"SDL_platform.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\begin_code.h
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\close_code.h
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564029384 c:\sdl2\sdl_64bit\sdl2\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1561870398 c:\sdl2\sdl_64bit\sdl2_image\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1609119676 d:\informatics\c\c_project\robot_game\prototypes_fct.h
+
+1580062321 d:\informatics\c\c_project\robot_game\define.h
+
+1609120895 source:d:\informatics\c\c_project\robot_game\cleanup.c
+	"common.h"
+	"Define.h"
+
+1609161625 source:d:\informatics\c\c_project\robot_game\createtextures.c
+	"common.h"
+	"Define.h"
+
+1580347753 source:d:\informatics\c\c_project\robot_game\createwindow.c
+	"common.h"
+	"Define.h"
+
+1580062226 source:d:\informatics\c\c_project\robot_game\delay.c
+	"common.h"
+	"Define.h"
+
+1580062226 source:d:\informatics\c\c_project\robot_game\detectcollision.c
+	"common.h"
+	"Define.h"
+
+1580281939 source:d:\informatics\c\c_project\robot_game\drawline.c
+	"common.h"
+	"Define.h"
+
+1609161675 source:d:\informatics\c\c_project\robot_game\game_over.c
+	"common.h"
+	"Prototypes_Fct.h"
+	"Define.h"
+
+1580136563 source:d:\informatics\c\c_project\robot_game\gobackward.c
+	"common.h"
+	"Prototypes_Fct.h"
+	"Define.h"
+
+1580136563 source:d:\informatics\c\c_project\robot_game\goforward.c
+	"common.h"
+	"Prototypes_Fct.h"
+	"Define.h"
+
+1580136563 source:d:\informatics\c\c_project\robot_game\goleft.c
+	"common.h"
+	"Prototypes_Fct.h"
+	"Define.h"
+
+1580136563 source:d:\informatics\c\c_project\robot_game\goright.c
+	"common.h"
+	"Prototypes_Fct.h"
+	"Define.h"
+
+1609162930 source:d:\informatics\c\c_project\robot_game\init_glob_var.c
+	"common.h"
+	"Define.h"
+
+1580137320 source:d:\informatics\c\c_project\robot_game\loadcontent.c
+	"common.h"
+	"Define.h"
+
+1609161770 source:d:\informatics\c\c_project\robot_game\loop.c
+	"common.h"
+	"Prototypes_Fct.h"
+	"Define.h"
+
+1609162132 source:d:\informatics\c\c_project\robot_game\main.c
+	"common.h"
+	"Prototypes_Fct.h"
+	"Define.h"
+
+1580308677 source:d:\informatics\c\c_project\robot_game\movecircle.c
+	"common.h"
+	"Prototypes_Fct.h"
+	"Define.h"
+
+1580564562 source:d:\informatics\c\c_project\robot_game\onrender.c
+	"common.h"
+	"Prototypes_Fct.h"
+	"Define.h"
+
+1609118315 source:d:\informatics\c\c_project\robot_game\playloop.c
+	"common.h"
+	"Prototypes_Fct.h"
+	"Define.h"
+
+1580062226 source:d:\informatics\c\c_project\robot_game\random.c
+	"common.h"
+	"Define.h"
+
+1609162132 source:d:\informatics\c\c_project\robot_game\resizewindow.c
+	"common.h"
+	"Prototypes_Fct.h"
+	"Define.h"
+
+1609118899 source:d:\informatics\c\c_project\robot_game\set_background.c
+	"common.h"
+	"Prototypes_Fct.h"
+	"Define.h"
+

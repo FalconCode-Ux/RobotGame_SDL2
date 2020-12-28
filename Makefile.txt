@@ -1,0 +1,61 @@
+#COMPILER_FLAGS specifies the additional compilation options we're using
+# -w suppresses all warnings
+# -Wl,-subsystem,windows gets rid of the console window
+COMPILER_FLAGS = -Wall
+
+#LINKER_FLAGS specifies the libraries we're linking against
+LINKER_FLAGS = -lmingw32 -lSDL2main  -lSDL2 -lSDL2_image
+
+#CC specifies which compiler we're using
+CC = gcc
+
+OBJS = main.o Init_Glob_Var.o CheckCircle.o Cleanup.o CreateTextures.o CreateWindow.o Delay.o DetectCollision.o DrawLine.o Game_Over.o GoBackward.o GoForward.o GoLeft.o GoRight.o LoadContent.o loop.o MoveCircle.o OnRender.o PlayLoop.o Random.o ResizeWindow.o Set_Background.o
+OBJS_FILES = obj\Release\main.o obj\Release\CheckCircle.o obj\Release\Cleanup.o obj\Release\CreateTextures.o obj\Release\CreateWindow.o obj\Release\Delay.o obj\Release\DetectCollision.o obj\Release\DrawLine.o obj\Release\Game_Over.o obj\Release\GoBackward.o obj\Release\GoForward.o obj\Release\GoLeft.o obj\Release\GoRight.o obj\Release\Init_Glob_Var.o obj\Release\LoadContent.o obj\Release\loop.o obj\Release\MoveCircle.o obj\Release\OnRender.o obj\Release\PlayLoop.o obj\Release\Random.o obj\Release\ResizeWindow.o obj\Release\Set_Background.o
+
+#This is the target that compiles our executable
+all: $(OBJS)
+	gcc -L.\SDL2_image\lib -L.\SDL2\lib -o .\RobotGame.exe $(OBJS_FILES) $(LINKER_FLAGS) -s
+main.o: common.h Prototypes_Fct.h Define.h 
+	gcc $(COMPILER_FLAGS) -O2 -I.\SDL2\include -I.\SDL2_image\include -c .\main.c -o obj\Release\main.o
+Init_Glob_Var.o: common.h Define.h 
+	gcc $(COMPILER_FLAGS) -O2 -I.\SDL2\include -I.\SDL2_image\include -c .\Init_Glob_Var.c -o obj\Release\Init_Glob_Var.o
+CheckCircle.o: common.h Prototypes_Fct.h Define.h
+	gcc $(COMPILER_FLAGS) -O2 -I.\SDL2\include -I.\SDL2_image\include -c .\CheckCircle.c -o obj\Release\CheckCircle.o
+Cleanup.o: common.h Define.h
+	gcc $(COMPILER_FLAGS) -O2 -I.\SDL2\include -I.\SDL2_image\include -c .\Cleanup.c -o obj\Release\Cleanup.o
+CreateTextures.o: common.h Define.h
+	gcc $(COMPILER_FLAGS) -O2 -I.\SDL2\include -I.\SDL2_image\include -c .\CreateTextures.c -o obj\Release\CreateTextures.o
+CreateWindow.o: common.h Define.h
+	gcc $(COMPILER_FLAGS) -O2 -I.\SDL2\include -I.\SDL2_image\include -c .\CreateWindow.c -o obj\Release\CreateWindow.o
+Delay.o: common.h Define.h
+	gcc $(COMPILER_FLAGS) -O2 -I.\SDL2\include -I.\SDL2_image\include -c .\Delay.c -o obj\Release\Delay.o
+DetectCollision.o: common.h Define.h
+	gcc $(COMPILER_FLAGS) -O2 -I.\SDL2\include -I.\SDL2_image\include -c .\DetectCollision.c -o obj\Release\DetectCollision.o
+DrawLine.o: common.h Define.h
+	gcc $(COMPILER_FLAGS) -O2 -I.\SDL2\include -I.\SDL2_image\include -c .\DrawLine.c -o obj\Release\DrawLine.o
+Game_Over.o: common.h Define.h Prototypes_Fct.h
+	gcc $(COMPILER_FLAGS) -O2 -I.\SDL2\include -I.\SDL2_image\include -c .\Game_Over.c -o obj\Release\Game_Over.o
+GoBackward.o: common.h Define.h Prototypes_Fct.h
+	gcc $(COMPILER_FLAGS) -O2 -I.\SDL2\include -I.\SDL2_image\include -c .\GoBackward.c -o obj\Release\GoBackward.o
+GoForward.o: common.h Define.h Prototypes_Fct.h
+	gcc $(COMPILER_FLAGS) -O2 -I.\SDL2\include -I.\SDL2_image\include -c .\GoForward.c -o obj\Release\GoForward.o
+GoLeft.o: common.h Define.h Prototypes_Fct.h
+	gcc $(COMPILER_FLAGS) -O2 -I.\SDL2\include -I.\SDL2_image\include -c .\GoLeft.c -o obj\Release\GoLeft.o
+GoRight.o: common.h Define.h Prototypes_Fct.h
+	gcc $(COMPILER_FLAGS) -O2 -I.\SDL2\include -I.\SDL2_image\include -c .\GoRight.c -o obj\Release\GoRight.o
+LoadContent.o: common.h Define.h
+	gcc $(COMPILER_FLAGS) -O2 -I.\SDL2\include -I.\SDL2_image\include -c .\LoadContent.c -o obj\Release\LoadContent.o
+loop.o: common.h Define.h Prototypes_Fct.h
+	gcc $(COMPILER_FLAGS) -O2 -I.\SDL2\include -I.\SDL2_image\include -c .\loop.c -o obj\Release\loop.o
+MoveCircle.o: common.h Define.h Prototypes_Fct.h
+	gcc $(COMPILER_FLAGS) -O2 -I.\SDL2\include -I.\SDL2_image\include -c .\MoveCircle.c -o obj\Release\MoveCircle.o
+OnRender.o: common.h Define.h Prototypes_Fct.h
+	gcc $(COMPILER_FLAGS) -O2 -I.\SDL2\include -I.\SDL2_image\include -c .\OnRender.c -o obj\Release\OnRender.o
+PlayLoop.o: common.h Define.h Prototypes_Fct.h
+	gcc $(COMPILER_FLAGS) -O2 -I.\SDL2\include -I.\SDL2_image\include -c .\PlayLoop.c -o obj\Release\PlayLoop.o
+Random.o: common.h Define.h
+	gcc $(COMPILER_FLAGS) -O2 -I.\SDL2\include -I.\SDL2_image\include -c .\Random.c -o obj\Release\Random.o
+ResizeWindow.o: common.h Define.h Prototypes_Fct.h
+	gcc $(COMPILER_FLAGS) -O2 -I.\SDL2\include -I.\SDL2_image\include -c .\ResizeWindow.c -o obj\Release\ResizeWindow.o
+Set_Background.o: common.h Define.h Prototypes_Fct.h
+	gcc $(COMPILER_FLAGS) -O2 -I.\SDL2\include -I.\SDL2_image\include -c .\Set_Background.c -o obj\Release\Set_Background.o
