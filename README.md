@@ -17,15 +17,16 @@ A simple 2D game implemented in C using SDL2.x graphic library. This is just a t
  - Repress D to delete the drawning
  - Press Esc to end the game, then Y to Replay or any other button to exit.
  
-# Install
-Note: The SDL2 files included with the project are for x86-64 architecture.
+# Build
+Note1: The SDL2 files included with the project are for x86-64 architecture.
+Note2: This is a CodeBlocks project and it's pre-configured, so you may open "RobotGame.cbp" and start working on it.
 
-To build the executable (.exe) from the source files on Windows:
+To build the executable (.exe) from the source files on Windows (outside CodeBlocks):
 
-1/ Open Windows Command Prompt (CMD.exe) or PowerShell
+1/ Open Windows Command Prompt (CMD.exe) or PowerShell,
 
 2/ Make sure you have the "make" package installed on your computer by trying the command "mingw32-make"
 
-3/ Change command directory to the project's folder
+3/ Change command directory to the project's folder using "cd" command
 
-4/ Run the following command : mingw32-make --f Makefile.txt
+4/ Run the following command "mingw32-make --f Makefile.txt"
